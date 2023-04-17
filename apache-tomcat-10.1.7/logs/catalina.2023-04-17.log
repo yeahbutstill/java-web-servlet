@@ -1,0 +1,47 @@
+17-Apr-2023 19:37:56.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-kali7-amd64
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/yeahbutstill/.sdkman/candidates/java/17.0.6-tem
+17-Apr-2023 19:37:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10
+17-Apr-2023 19:37:56.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+17-Apr-2023 19:37:56.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7
+17-Apr-2023 19:37:56.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7
+17-Apr-2023 19:37:56.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/conf/logging.properties
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 19:37:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/temp
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+17-Apr-2023 19:37:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+17-Apr-2023 19:37:56.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2023 19:37:56.872 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 19:37:56.913 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [552] milliseconds
+17-Apr-2023 19:37:56.964 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 19:37:56.965 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+17-Apr-2023 19:37:56.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/ROOT]
+17-Apr-2023 19:37:57.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/ROOT] has finished in [327] ms
+17-Apr-2023 19:37:57.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/host-manager]
+17-Apr-2023 19:37:57.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/host-manager] has finished in [39] ms
+17-Apr-2023 19:37:57.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/examples]
+17-Apr-2023 19:37:57.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/examples] has finished in [224] ms
+17-Apr-2023 19:37:57.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/manager]
+17-Apr-2023 19:37:57.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/manager] has finished in [24] ms
+17-Apr-2023 19:37:57.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/docs]
+17-Apr-2023 19:37:57.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/yeahbutstill/IdeaProjects/apache-tomcat-10.1.7/webapps/docs] has finished in [19] ms
+17-Apr-2023 19:37:57.625 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 19:37:57.639 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [726] milliseconds
+17-Apr-2023 20:11:54.148 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 20:11:54.152 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 20:11:54.206 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 20:11:54.214 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

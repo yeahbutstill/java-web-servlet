@@ -21,5 +21,15 @@ $ mvn package
 
 ### Access Endpoint
 ```shell
+### tomcat
 http://localhost:8080/belajar/hello
+
+### embeded tomcat
+http://localhost:8080/hello
+http://localhost:8080/unsafe?name=Dani&sleep=3000
+http://localhost:8080/unsafe?name=Maya&sleep=30000
+http://localhost:8080/counter
+http://localhost:8080/safe?name=Dani&sleep=3000
+http://localhost:8080/safe?name=Maya&sleep=30000
 ```
+

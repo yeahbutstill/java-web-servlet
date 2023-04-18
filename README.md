@@ -31,5 +31,7 @@ http://localhost:8080/unsafe?name=Maya&sleep=30000
 http://localhost:8080/counter
 http://localhost:8080/safe?name=Dani&sleep=3000
 http://localhost:8080/safe?name=Maya&sleep=30000
+http://localhost:8080/todolist?todo=Belajar Java web servlet
+http://localhost:8080/todolist
 ```
 

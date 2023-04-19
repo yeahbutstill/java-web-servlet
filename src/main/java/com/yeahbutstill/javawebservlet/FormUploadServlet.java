@@ -11,6 +11,7 @@ import jakarta.servlet.http.Part;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Objects;
 import java.util.UUID;
 
 @WebServlet(urlPatterns = "/form-upload")
@@ -19,7 +20,8 @@ public class FormUploadServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Path path = Path.of(FormUploadServlet.class.getResource("/html/form-upload.html").getPath());
+        Path path = Path.of(Objects.requireNonNull(FormUploadServlet.class.getResource("/html/form-upload.html"))
+                .getPath());
         String html = Files.readString(path);
         resp.getWriter().write(html);
     }
@@ -29,9 +31,26 @@ public class FormUploadServlet extends HttpServlet {
         String name = req.getParameter("name");
         Part profile = req.getPart("profile");
 
-        Path uploadLocation = Path.of("upload/" + UUID.randomUUID().toString() + profile.getSubmittedFileName());
+        Path uploadLocation = Path.of("upload/" + UUID.randomUUID() + profile.getSubmittedFileName());
         Files.copy(profile.getInputStream(), uploadLocation);
 
-        resp.getWriter().write("Hello " + name + "! Your profile has been uploaded! " + uploadLocation.toAbsolutePath());
+        String html = """
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Form Upload</title>
+                </head>
+                <body>
+                    Name: $name
+                    <br>
+                    Profile: <img width="100px" height="100px" src="/download?file=$profile" />
+                </body>
+                </html>
+                """
+                .replace("$name", name)
+                .replace("$profile", uploadLocation.getFileName().toString());
+
+        resp.getWriter().write(html);
     }
 }

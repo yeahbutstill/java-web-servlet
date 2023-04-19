@@ -33,5 +33,8 @@ http://localhost:8080/safe?name=Dani&sleep=3000
 http://localhost:8080/safe?name=Maya&sleep=30000
 http://localhost:8080/todolist?todo=Belajar Java web servlet
 http://localhost:8080/todolist
+http://localhost:8080/form-upload
+http://localhost:8080/download?file=2f298686-87fe-42ab-aeda-2bff7be3848fMySQL%20Database.pdf
+http://localhost:8080/download?file=2f298686-87fe-42ab-aeda-2bff7be3848fMySQL%20Database.pdf&force=true
 ```
 

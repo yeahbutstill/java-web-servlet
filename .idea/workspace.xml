@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464c66cd-07fe-41db-9163-bcc04577b703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yeahbutstill/javawebservlet/RedirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yeahbutstill/javawebservlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yeahbutstill/javawebservlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yeahbutstill/javawebservlet/PetternsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yeahbutstill/javawebservlet/SessionServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +120,8 @@
       <workItem from="1681906559829" duration="3228000" />
       <workItem from="1681910624141" duration="3673000" />
       <workItem from="1681998089168" duration="136000" />
-      <workItem from="1681998250067" duration="1295000" />
+      <workItem from="1681998250067" duration="3267000" />
+      <workItem from="1682021287631" duration="1129000" />
     </task>
     <servers />
   </component>
